@@ -1,7 +1,7 @@
 .heart {
   width: 20px;
   height: 20px;
-  background-color: pink;
+  background-color: red;
   position: relative;
   transform: rotate(-45deg);
   margin: 0 10px;
@@ -12,7 +12,7 @@
   content: "";
   width: 20px;
   height: 20px;
-  background-color: pink;
+  background-color: red;
   border-radius: 50%;
   position: absolute;
 }
@@ -29,6 +29,6 @@
 
 .hearts-container {
     display: flex;
+    margin: auto;
     justify-content: center;
-    margin: 20px 0;
   }
