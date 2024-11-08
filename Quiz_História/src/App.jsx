@@ -68,8 +68,87 @@ const App = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div>
-                <img src="fundo.jpg"/>
+              <div className="pergunta">
+                  <h1>1. Em qual país a Revolução Industrial começou?</h1>
+              </div>
+              <div className="opções">
+                  <ul>
+                    <li>França</li>
+                    <li>Espanha</li>
+                    <li className="resposta-certa">Inglaterra</li>
+                  </ul>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="pergunta">
+                  <h1>2. Qual foi uma das principais invenções da Revolução Industrial?</h1>
+              </div>
+              <div className="opções">
+                <ul>
+                    <li>Computador</li>
+                    <li>Máquina a vapor</li>
+                    <li>Telefone</li>
+                  </ul>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="pergunta">
+                  <h1>2. Qual foi uma das principais invenções da Revolução Industrial?</h1>
+              </div>
+              <div className="opções">
+                <ul>
+                    <li>Computador</li>
+                    <li className="resposta-certa-expecifica">Máquina a vapor</li>
+                    <li>Telefone</li>
+                  </ul>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="pergunta">
+                  <h1>3. Qual setor foi o primeiro a ser transformado pela Revolução Industrial?</h1>
+              </div>
+              <div className="opções">
+                <ul>
+                    <li>Agricultura</li>
+                    <li>Têxtil</li>
+                    <li>Construção</li>
+                  </ul>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="pergunta">
+                  <h1>3. Qual setor foi o primeiro a ser transformado pela Revolução Industrial?</h1>
+              </div>
+              <div className="opções">
+                <ul>
+                    <li>Agricultura</li>
+                    <li className="resposta-certa ">Têxtil</li>
+                    <li>Construção</li>
+                  </ul>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="pergunta">
+                  <h1>4. Qual a principal fonte de energia utilizada na primeira fase da Revolução Industrial?</h1>
+              </div>
+              <div className="opções">
+                <ul>
+                    <li>Eletricidade</li>
+                    <li>Carvão</li>
+                    <li>Energia solar</li>
+                  </ul>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="pergunta">
+                  <h1>4. Qual a principal fonte de energia utilizada na primeira fase da Revolução Industrial?</h1>
+              </div>
+              <div className="opções">
+                <ul>
+                    <li>Eletricidade</li>
+                    <li className="resposta-certa">Carvão</li>
+                    <li>Energia solar</li>
+                  </ul>
               </div>
             </SwiperSlide>
           </Swiper>
